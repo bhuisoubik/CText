@@ -17,6 +17,7 @@ dotnet run
 ```
 `Alt` key for selecting menu bar, `Left` and `Right` key for navigating  in menu bar and `Up` and `Down` for selecting Menu Item.
 
+### Key Bindings
 |Key|Description|
 |:--:|:--------:|
 |`CTRL+N`|New File|
