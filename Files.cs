@@ -17,12 +17,14 @@ namespace CText
         {
             var dialog = new OpenDialog("Open", "Open a File")
             {
-                FilePath = "",
+                FilePath = Program.FilePath,
                 AllowedFileTypes = null
             };
             Application.Run(dialog);
-            Program.FilePath = dialog.FilePath.ToString();
-            tb.Text = File.ReadAllText(Program.FilePath);            
+            if(dialog.FilePaths.ToString() != null) {
+                Program.FilePath = dialog.FilePath.ToString();
+                tb.Text = File.ReadAllText(Program.FilePath);    
+            }
         }
 
         public void SaveAs(TextView tb)
@@ -35,6 +37,7 @@ namespace CText
             Application.Run(dialog);
             if(dialog.FileName != null) {
                 Program.FilePath = dialog.FileName.ToString();
+                Write(tb);
             }
         }
     }

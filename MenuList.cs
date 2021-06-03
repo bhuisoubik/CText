@@ -26,50 +26,47 @@ namespace CText
                             Program.FilePath = "";
                             opt.Textview.Text = "";    
                         }
-                    }, shortcut: Key.N),
+                    }),
                     new MenuItem("_Open", "Open a File", () => {
                         files.Open(opt.Textview);
-                    }, shortcut: Key.O),
+                    }),
                     new MenuItem("_Save", "Save a File", () => {
                         if(Program.FilePath == "") {
                             files.SaveAs(opt.Textview);
                         } else {
                             files.Write(opt.Textview);
                         }
-                    }, shortcut: Key.S),
+                    }),
                     new MenuItem("_Save As", "Save as", () => {
                         files.SaveAs(opt.Textview);
-                    }, shortcut: Key.E),
+                    }),
                     new MenuItem("_Exit", "Quit", () => { 
                         if (Exit()) {
                             top.Running = false;
                         }
-                    }, shortcut: Key.Q)
+                    })
                 }),
                 new MenuBarItem("_Edit", new MenuItem[] {
                     new MenuItem("_Copy", "Copy the selected text", () => {
                         opt.Textview.Copy();
-                    }, shortcut: Key.C),
+                    }),
                     new MenuItem("_Cut", "Cut the selected text", () => {
                         opt.Textview.Cut();
-                    }, shortcut: Key.X),
+                    }),
                     new MenuItem("_Paste", "Paste", () => {
                         opt.Textview.Paste();
-                    }, shortcut: Key.V),
+                    }),
                     new MenuItem("_Select All", "Select All text", () => {
                         opt.Textview.SelectAll();
-                    }, shortcut: Key.A),
+                    }),
                 }),
                 new MenuBarItem("_Help", new MenuItem[] {
                     new MenuItem("_About", "About CText", () => {
                         dialogView.About();
-                    }, shortcut:Key.I),
-                    new MenuItem("_Shortcut Keys", "Show all shortcut keys", () => {
-                        dialogView.Shortcut();
-                    }, shortcut: Key.K),
+                    }),
                     new MenuItem("_GitHub", "Open CText in GitHub", () => { 
                         OpenUrl("https://github.com/soubikbhuiwk007/CText"); 
-                    }, shortcut:Key.G),
+                    }),
                 }),
             });
         }

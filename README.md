@@ -3,7 +3,7 @@ Console Based Text Editor written in **DotNet**.
 
 It uses **[Terminal.Gui](https://github.com/migueldeicaza/gui.cs)** for the UI.
 
-![](./doc/sample.png)
+![](./CText-view.png)
 
 > DotNet SDK required !!
 
@@ -15,8 +15,15 @@ git clone https://github.com/soubikbhuiwk007/CText
 cd CText
 dotnet run
 ```
+`Alt` key for selecting menu bar, `Left` and `Right` key for navigating  in menu bar and `Up` and `Down` for selecting Menu Item.
 
-**[Full Documentation](doc/Readme.md)**
+|Key|Description|
+|:--:|:--------:|
+|`CTRL+N`|New File|
+|`CTRL+O`|Open File|
+|`CTRL+S`|Save File|
+|`CTRL+Q`|Quit File|
+
 
 ### License
 **[MIT](LICENSE)**

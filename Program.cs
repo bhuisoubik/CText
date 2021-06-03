@@ -1,11 +1,10 @@
-﻿using Terminal.Gui;
+using Terminal.Gui;
 using NStack;
 
 namespace CText
 {
     class Program
     {
-         
         public static string FilePath = "";
 
         static void Main(string[] args)
@@ -32,8 +31,10 @@ namespace CText
                 Top = top,
                 Textview = textboxview,
             }));
+
+            var bar = new Bar();
+            top.Add(bar.Render(textboxview, top));
             window.Add(textboxview);
-            
             Application.Run();
         }
 
