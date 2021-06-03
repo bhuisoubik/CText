@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "nFr46e/y3fCcoPTx0d2YnC4keVUQTSFtFxGvU6c3p2oXPsz+ehTntt4G4qMminYiwkErgt84Lr+aUXUM+S4OxQ==",
+  "success": true,
+  "projectFilePath": "D:\\dotnet\\CText\\CText.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Soubik\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\Soubik\\.nuget\\packages\\nstack.core\\0.16.0\\nstack.core.0.16.0.nupkg.sha512",
+    "C:\\Users\\Soubik\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\Soubik\\.nuget\\packages\\terminal.gui\\1.1.1\\terminal.gui.1.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

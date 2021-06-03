@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CText/1.0.0": {
+        "dependencies": {
+          "Terminal.Gui": "1.1.1"
+        },
+        "runtime": {
+          "CText.dll": {}
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {},
+      "NStack.Core/0.16.0": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NStack.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {},
+      "Terminal.Gui/1.1.1": {
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies": "1.0.2",
+          "NStack.Core": "0.16.0"
+        },
+        "runtime": {
+          "lib/net5.0/Terminal.Gui.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CText/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5/cSEVld+px/CuRrbohO/djfg6++eR6zGpy88MgqloXvkj//WXWpFZyu/OpkXPN0u5m+dN/EVwLNYFUxD4h2+A==",
+      "path": "microsoft.netframework.referenceassemblies/1.0.2",
+      "hashPath": "microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512"
+    },
+    "NStack.Core/0.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DbScJtx9D3eAlc34lMsszsB246OCbrsu5FaITTOgRUIzOSLAlTItuKIxbU318HxM1cWF60yFV+/Lnh5ZOHLcoQ==",
+      "path": "nstack.core/0.16.0",
+      "hashPath": "nstack.core.0.16.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "Terminal.Gui/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TCEBU+TzkpWn4MLqWidymhUmUSs44sPHoYrU9WZJsENTC0DGLxnXMAePNaIfcYyDARU95ph/WvTCweiUs7H0AQ==",
+      "path": "terminal.gui/1.1.1",
+      "hashPath": "terminal.gui.1.1.1.nupkg.sha512"
+    }
+  }
+}
