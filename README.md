@@ -25,7 +25,7 @@ To open a file from command line: run the project with the file name as argument
 |`CTRL+N`|New File|
 |`CTRL+O`|Open File|
 |`CTRL+S`|Save File|
-|`CTRL+Q`|Quit File|
+|`CTRL+Q`|Quit|
 
 
 ### License
