@@ -17,6 +17,8 @@ dotnet run
 ```
 `Alt` key for selecting menu bar, `Left` and `Right` key for navigating  in menu bar and `Up` and `Down` for selecting Menu Item.
 
+To open a file from command line: run the project with the file name as argument `dotnet run <file-name>`
+
 ### Key Bindings
 |Key|Description|
 |:--:|:--------:|
